@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Die Knusperflotte – Logbuch</title>
+  <link>https://knusperflotte.example</link>
+  <atom:link href="https://knusperflotte.example/feed.xml" rel="self" type="application/rss+xml" />
+  <description>Inoffizieller, nicht-kommerzieller Fan-Club für alle, die Fischstäbchen lieben – Nostalgie, Beilagen-Streit und gemeinsames Schlemmen.</description>
+  <language>de</language>
+  <item>
+    <title>Logbuch: Unser erster Synchron-Schmaus</title>
+    <link>https://knusperflotte.example/blog/logbuch-unser-erster-synchron-schmaus</link>
+    <guid isPermaLink="true">https://knusperflotte.example/blog/logbuch-unser-erster-synchron-schmaus</guid>
+    <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+    <category>Logbuch</category>
+    <category>Aktion</category>
+    <description>Vier Häfen, eine Sekunde, ein kollektives Knuspern. Was beim ersten gemeinsamen Abbiss schiefging – und warum es trotzdem perfekt war.</description>
+  </item>
+  <item>
+    <title>Remoulade gegen Ketchup: Chronik eines endlosen Krieges</title>
+    <link>https://knusperflotte.example/blog/remoulade-gegen-ketchup-chronik-eines-endlosen-krieges</link>
+    <guid isPermaLink="true">https://knusperflotte.example/blog/remoulade-gegen-ketchup-chronik-eines-endlosen-krieges</guid>
+    <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    <category>Beilagen</category>
+    <category>Debatte</category>
+    <description>Seit der ersten Vereinssitzung schwelt er: der Beilagen-Streit. Eine ernsthafte (nicht ernste) Bestandsaufnahme zweier unversöhnlicher Lager.</description>
+  </item>
+  <item>
+    <title>Warum goldbraune Stäbchen uns in die Kindheit beamen</title>
+    <link>https://knusperflotte.example/blog/warum-goldbraune-staebchen-uns-in-die-kindheit-beamen</link>
+    <guid isPermaLink="true">https://knusperflotte.example/blog/warum-goldbraune-staebchen-uns-in-die-kindheit-beamen</guid>
+    <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    <category>Nostalgie</category>
+    <description>Es ist nicht nur Essen. Es ist eine Zeitmaschine mit Panade. Über Erinnerung, Geruch und das Geräusch, wenn die Gabel durch die Kruste bricht.</description>
+  </item>
+</channel>
+</rss>
