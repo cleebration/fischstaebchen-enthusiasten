@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
+  const [website, setWebsite] = useState(""); // Honeypot gegen Bots
   const [state, setState] = useState("idle"); // idle | loading | ok | err
   const [msg, setMsg] = useState("");
 
@@ -13,7 +15,7 @@ export default function NewsletterForm() {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, website }),
       });
       const data = await res.json().catch(() => ({}));
       if (res.ok && data.ok) {
@@ -37,11 +39,16 @@ export default function NewsletterForm() {
         <input
           id="nl-email"
           type="email"
-          placeholder="moin@beispiel.at"
+          placeholder="servus@beispiel.at"
+          autoComplete="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && submit()}
         />
+      </div>
+      <div aria-hidden="true" style={{ position: "absolute", left: "-10000px", width: 1, height: 1, overflow: "hidden" }}>
+        <label htmlFor="nl-website">Bitte leer lassen</label>
+        <input id="nl-website" type="text" tabIndex={-1} autoComplete="off" value={website} onChange={(e) => setWebsite(e.target.value)} />
       </div>
       <button className="btn block" onClick={submit} disabled={state === "loading"}>
         {state === "loading" ? "Wird gesendet…" : "Newsletter abonnieren"}
@@ -52,7 +59,9 @@ export default function NewsletterForm() {
         </div>
       )}
       <p className="note" style={{ marginTop: ".7rem" }}>
-        Double-Opt-in. Tag <code>fischstäbchen</code>. Abmeldung jederzeit. Kein Spam, nur Knusper.
+        Du bekommst zuerst eine Bestätigungsmail (Double-Opt-in). Abmeldung jederzeit über den
+        Link in jeder Ausgabe. Kein Spam, nur Knusper. Mehr dazu im{" "}
+        <Link to="/rechtliches#datenschutz">Datenschutz</Link>.
       </p>
     </div>
   );

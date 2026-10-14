@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
+/* Schriften werden lokal ausgeliefert (siehe src/main.jsx) – keine Verbindung zu Google Fonts. */
 
 /* ============================================================
    Fischstäbchen-Enthusiasten – Design-Tokens
@@ -244,3 +244,4 @@ img, svg { max-width: 100%; }
 }
 
 :focus-visible { outline: 3px solid var(--gold-deep); outline-offset: 2px; }
+.prose h2[id] { scroll-margin-top: 84px; }
