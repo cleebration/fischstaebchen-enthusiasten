@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { site } from "../data.js";
-import FishStick from "./FishStick.jsx";
 
 const links = [
   { to: "/verein", label: "Verein" },
@@ -21,7 +20,7 @@ export default function Layout({ children }) {
       <header className="nav">
         <div className="nav-inner">
           <Link to="/" className="brand" onClick={() => setOpen(false)}>
-            <FishStick /> {site.short}
+            <img src="/icon-64.png" alt="" width="34" height="34" className="brand-mark" /> {site.short}
           </Link>
           <button
             className="nav-toggle"
@@ -50,8 +49,15 @@ export default function Layout({ children }) {
       <footer className="footer">
         <div className="wrap footer-grid">
           <div>
+            <img
+              src="/logo-320.png"
+              srcSet="/logo-320.png 1x, /logo-640.png 2x"
+              width="140" height="140" loading="lazy"
+              alt="Emblem der Fischstäbchen-Enthusiasten: zwei gekreuzte Fischstäbchen, Ringtext ‚Knusprig vereint‘"
+              className="footer-logo"
+            />
             <h4>{site.name}</h4>
-            <p>{site.tagline}<br />Wir paniert das Leben – seit gestern.</p>
+            <p>{site.tagline}<br />Wir panieren das Leben – seit gestern.</p>
           </div>
           <div>
             <h4>An Bord</h4>
