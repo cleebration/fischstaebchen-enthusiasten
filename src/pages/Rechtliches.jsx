@@ -41,17 +41,16 @@ export default function Rechtliches() {
           </p>
 
           <h2>Impressum</h2>
-          <div className="placeholder-note">
-            Platzhalter – bitte vor Veröffentlichung ausfüllen. In Österreich brauchen auch private
-            Websites in der Regel Angaben nach ECG / Mediengesetz (Name, Anschrift, Kontakt). Diese
-            Angaben dürfen wir nicht erfinden.
-          </div>
           <p>
-            Verantwortlich für den Inhalt:<br />
-            [Vor- und Nachname]<br />
-            [Anschrift]<br />
-            [PLZ Ort, Österreich]<br />
-            E-Mail: {site.email}
+            Medieninhaber und für den Inhalt verantwortlich:<br />
+            Chris H. Leeb<br />
+            Willingerstraße 17<br />
+            4030 Linz, Österreich<br />
+            E-Mail: <a href={`mailto:${site.email}`}>{site.email}</a>
+          </p>
+          <p>
+            Offenlegung gemäß § 25 Mediengesetz: private, nicht-kommerzielle Fan- und Spaßseite rund
+            ums Fischstäbchen.
           </p>
 
           <h2>Datenschutz (Kurzfassung)</h2>
