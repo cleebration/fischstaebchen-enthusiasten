@@ -20,7 +20,7 @@ describe("scoreToRank", () => {
   });
   it("gibt den höchsten Rang bei maximaler Punktzahl", () => {
     const max = maxQuizPoints(quiz.questions);
-    expect(scoreToRank(max, ranks).title).toBe("Käpt'n der Knusperflotte");
+    expect(scoreToRank(max, ranks).title).toBe("Käpt'n der Enthusiasten");
   });
 });
 

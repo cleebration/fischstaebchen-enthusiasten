@@ -14,7 +14,7 @@ export default function Home() {
             <div>
               <span className="hero-tag">Inoffizieller Fan-Club · est. an einem Freitagabend</span>
               <h1>
-                Willkommen an Bord der <span className="accent">Knusperflotte</span>.
+                Willkommen bei den <span className="accent">Fischstäbchen-Enthusiasten</span>.
               </h1>
               <p className="lead" style={{ color: "#cfe0e6" }}>
                 Der Club für alle, die bei goldbraunen Fischstäbchen in die Kindheit zurückgebeamt
@@ -93,7 +93,7 @@ export default function Home() {
       <section className="section navy">
         <div className="wrap" style={{ textAlign: "center" }}>
           <span className="eyebrow">Komm an Bord</span>
-          <h2>Bereit für die Knusperflotte?</h2>
+          <h2>Bereit zum Anheuern?</h2>
           <p className="lead" style={{ margin: "0 auto 1.4rem" }}>
             Mach den Aufnahmetest, finde deinen Hafen oder hol dir das Logbuch per Newsletter.
           </p>

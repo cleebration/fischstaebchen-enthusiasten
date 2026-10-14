@@ -1,10 +1,10 @@
-# Die Knusperflotte 🐟
+# Die Fischstäbchen-Enthusiasten 🐟
 
 Inoffizielle, nicht-kommerzielle **Fan- und Spaßseite** für Fischstäbchen-Enthusiast:innen.
 Gebaut mit **Vite + React** (Single-Page-App), Deployment über **GitHub + Vercel**.
 
 > ⚠️ **Wichtiger Hinweis:** Diese Seite steht in keiner Verbindung zu iglo / Nomad Foods.
-> Der Maskottchen-Name „Käpt'n Knusperbart" und der Vereinsname „Die Knusperflotte" sind
+> Der Maskottchen-Name „Käpt'n Knusperbart" und der Vereinsname „Die Fischstäbchen-Enthusiasten" sind
 > **eigene Schöpfungen**. Bezüge auf „iglo" / „Käpt'n iglo" erfolgen nur beschreibend.
 > Siehe Seite **/rechtliches** und den Abschnitt „Rechtliches" unten.
 
@@ -36,7 +36,7 @@ Alle zentralen Inhalte liegen in **`src/data.js`**. Folgende Felder sind Platzha
 | `src/data.js` → `chapters` | alle Einträge | Echte Gruppen/Standorte, Treffzeiten, Status |
 | `src/pages/Rechtliches.jsx` | Impressum-Block | **Echte Angaben** (Name, Anschrift, Verantwortliche:r) – gesetzlich Pflicht (öst. ECG/Mediengesetz) |
 
-Der **Vereinsname** („Die Knusperflotte") und das **Maskottchen** („Käpt'n Knusperbart")
+Der **Vereinsname** („Die Fischstäbchen-Enthusiasten") und das **Maskottchen** („Käpt'n Knusperbart")
 sind Vorschläge – frei änderbar in `src/data.js` bzw. `src/components/Mascot.jsx`.
 
 ---
@@ -73,7 +73,7 @@ deaktiviert, solange dort noch der Platzhalter steht.
    ```bash
    git init
    git add .
-   git commit -m "Knusperflotte v1"
+   git commit -m "Fischstäbchen-Enthusiasten v1"
    git branch -M main
    git remote add origin https://github.com/<dein-account>/<repo>.git
    git push -u origin main

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://knusperflotte.example/feed.xml
+Sitemap: https://fischstaebchen.cleebration.com/feed.xml

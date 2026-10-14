@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
 
 /* ============================================================
-   Knusperflotte – Design-Tokens
-   Palette: Tiefsee-Navy + Panade-Gold + Sahne, Erbsen-Grün, Ketchup.
+   Fischstäbchen-Enthusiasten – Design-Tokens
+   Palette: Tiefsee-Navy + Panier-Gold + Sahne, Erbsen-Grün, Ketchup.
    ============================================================ */
 :root {
   --navy: #0c2a3a;
@@ -95,19 +95,20 @@ img, svg { max-width: 100%; }
   border-bottom: 2px solid var(--navy);
 }
 .nav-inner { display: flex; align-items: center; gap: 1rem; justify-content: space-between; padding: 12px 22px; max-width: var(--wrap); margin: 0 auto; }
-.brand { display: flex; align-items: center; gap: .6rem; font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--navy); text-decoration: none; }
-.brand svg { width: 34px; height: 34px; }
-.nav-links { display: flex; gap: .25rem; align-items: center; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: .6rem; font-family: var(--display); font-weight: 700; font-size: 1.1rem; color: var(--navy); text-decoration: none; white-space: nowrap; }
+.brand svg { width: 34px; height: 34px; flex-shrink: 0; }
+@media (max-width: 400px) { .brand { font-size: .9rem; gap: .4rem; } .brand svg { width: 28px; height: 28px; } .nav-inner { padding: 12px 14px; } }
+.nav-links { display: flex; gap: .1rem; align-items: center; flex-wrap: nowrap; }
 .nav-links a {
   font-family: var(--mono); font-size: .8rem; letter-spacing: .03em;
-  text-decoration: none; color: var(--navy);
-  padding: .4rem .6rem; border-radius: 8px;
+  text-decoration: none; color: var(--navy); white-space: nowrap;
+  padding: .4rem .5rem; border-radius: 8px;
 }
 .nav-links a:hover { background: rgba(12, 42, 58, 0.08); }
 .nav-links a.active { background: var(--navy); color: var(--cream); }
 .nav-toggle { display: none; background: none; border: 2px solid var(--navy); border-radius: 8px; padding: .35rem .6rem; font-size: 1.1rem; cursor: pointer; }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
   .nav-toggle { display: inline-block; }
   .nav-links {
     position: absolute; top: 100%; left: 0; right: 0;

@@ -6,7 +6,7 @@ export default function Mascot({ className = "", bob = false }) {
       className={`mascot ${bob ? "bob" : ""} ${className}`}
       viewBox="0 0 240 300"
       role="img"
-      aria-label="Käpt'n Knusperbart, die Vereinsfigur der Knusperflotte"
+      aria-label="Käpt'n Knusperbart, die Vereinsfigur der Fischstäbchen-Enthusiasten"
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Körper / Mantel */}

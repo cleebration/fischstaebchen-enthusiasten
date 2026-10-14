@@ -8,9 +8,9 @@ export default function Verein() {
       <section className="section">
         <div className="wrap prose">
           <span className="eyebrow">Der Verein</span>
-          <h1>Eine Bruderschaft der Panade.</h1>
+          <h1>Eine Bruderschaft der Panier.</h1>
           <p className="lead">
-            Die Knusperflotte ist ein loser, fröhlicher Zusammenschluss erwachsener Menschen, die
+            Die Fischstäbchen-Enthusiasten sind ein loser, fröhlicher Zusammenschluss erwachsener Menschen, die
             ein einfaches Glück teilen: ein goldbraunes Fischstäbchen, eine Beilage nach Wahl, und
             die Erinnerung, die beim ersten Biss hochkommt.
           </p>

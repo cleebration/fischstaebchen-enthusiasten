@@ -11,7 +11,7 @@ export default function Gruppen() {
       <SEO title="Gruppen" />
       <section className="section">
         <div className="wrap">
-          <span className="eyebrow">Häfen der Knusperflotte</span>
+          <span className="eyebrow">Häfen der Enthusiasten</span>
           <h1>Finde deine Gruppe.</h1>
           <p className="lead">
             Jede Gruppe ist ein „Hafen“ mit eigenem Charakter. Du findest keinen in deiner Nähe?

@@ -16,7 +16,7 @@ function rssPlugin() {
     fs.writeFileSync(path.join(dir, "feed.xml"), buildFeed({ site, posts }), "utf8");
   };
   return {
-    name: "knusperflotte-rss",
+    name: "fse-rss",
     buildStart() {
       write();
     },

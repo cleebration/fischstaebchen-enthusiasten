@@ -11,7 +11,7 @@ export default function Beilagen() {
           <span className="eyebrow">Die große Frage</span>
           <h1>Beilagen-Barometer</h1>
           <p className="lead">
-            Was kommt aufs Stäbchen? Stimm ab und sieh, wo die Knusperflotte gerade steht. Wir
+            Was kommt aufs Stäbchen? Stimm ab und sieh, wo die Enthusiasten gerade stehen. Wir
             warnen vor: Diese Seite hat schon Freundschaften auf die Probe gestellt.
           </p>
           <div style={{ marginTop: "1.6rem", maxWidth: 700 }}>

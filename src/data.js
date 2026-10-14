@@ -1,22 +1,22 @@
 // =============================================================
-//  Zentrale Datenquelle der Knusperflotte.
+//  Zentrale Datenquelle der Fischstäbchen-Enthusiasten.
 //  Reines Daten-Modul (kein React-Import!) -> auch in Node nutzbar
 //  fuer die RSS-Generierung beim Build.
 // =============================================================
 
 export const site = {
-  name: "Die Knusperflotte",
-  short: "Knusperflotte",
+  name: "Die Fischstäbchen-Enthusiasten",
+  short: "Fischstäbchen-Enthusiasten",
   tagline: "Goldbraun. Knusprig. Für immer Kindheit.",
   description:
     "Inoffizieller, nicht-kommerzieller Fan-Club für alle, die Fischstäbchen lieben – Nostalgie, Beilagen-Streit und gemeinsames Schlemmen.",
-  // ▼▼▼ BITTE ANPASSEN – echte Domain eintragen (für Feed & Canonical) ▼▼▼
-  url: "https://knusperflotte.example",
+  // Domain (für Feed & Canonical)
+  url: "https://fischstaebchen.cleebration.com",
   // ▼▼▼ BITTE ANPASSEN – Link zum Google-Formular (Gruppen-Beitritt) ▼▼▼
   googleFormUrl: "https://docs.google.com/forms/d/e/DEIN_FORMULAR_ID/viewform",
   // Tag, mit dem Newsletter-Kontakte in EmailOctopus markiert werden:
   emailOctopusTag: "fischstäbchen",
-  email: "ahoi@knusperflotte.example", // BITTE ANPASSEN
+  email: "fischstaebchen@cleebration.com"
 };
 
 // --- Spaß-Trivia (Fakten, Quelle iglo.de / Wikipedia) -------------
@@ -46,7 +46,7 @@ export const chapters = [
     name: "Heimathafen Linz",
     status: "aktiv",
     treff: "jeden 3. Donnerstag, 19:00",
-    note: "Der Mutterhafen der Knusperflotte. Hier wird die Panade-Doktrin gehütet.",
+    note: "Der Mutterhafen der Fischstäbchen-Enthusiasten. Hier wird die Panier-Doktrin gehütet.",
   },
   {
     stadt: "Wien",
@@ -81,7 +81,7 @@ export const aktionen = [
   },
   {
     icon: "🗺️",
-    title: "Tour de Panade",
+    title: "Tour de Panier",
     kicker: "Saison",
     text: "Häfen besuchen sich gegenseitig. Jede:r bekommt einen Stäbchen-Pass, der an jeder Kombüse einen Stempel erhält. Volle Karte = Ehrenrang an Bord.",
   },
@@ -101,7 +101,7 @@ export const aktionen = [
     icon: "📏",
     title: "Das Lange Stäbchen",
     kicker: "Gemeinschaftsrekord",
-    text: "Jeder Hafen legt seine längste lückenlose Reihe Stäbchen, fotografiert sie – und wir montieren daraus die längste Knusperflotte-Linie der Republik.",
+    text: "Jeder Hafen legt seine längste lückenlose Reihe Stäbchen, fotografiert sie – und wir montieren daraus die längste Stäbchen-Linie der Republik.",
   },
   {
     icon: "🆘",
@@ -174,9 +174,9 @@ export const quiz = {
   ranks: [
     { min: 0, title: "Blinder Passagier", text: "Noch grün hinter den Ohren – aber jede:r fängt mal an. Komm zum Probeessen!" },
     { min: 8, title: "Schiffsjunge", text: "Solide Grundhaltung. Ein paar Schmäuse und du bist Stammbesatzung." },
-    { min: 12, title: "Smutje", text: "Du verstehst die Panade. Die Kombüse ruft nach dir." },
+    { min: 12, title: "Smutje", text: "Du verstehst die Panier. Die Kombüse ruft nach dir." },
     { min: 15, title: "Steuermann/-frau", text: "Kurssicher in allen Beilagen-Gewässern. Respekt." },
-    { min: 17, title: "Käpt'n der Knusperflotte", text: "Eine Legende. Käpt'n Knusperbart salutiert." },
+    { min: 17, title: "Käpt'n der Enthusiasten", text: "Eine Legende. Käpt'n Knusperbart salutiert." },
   ],
 };
 
@@ -267,12 +267,12 @@ export const posts = [
     author: "Käpt'n Knusperbart",
     tags: ["Nostalgie"],
     excerpt:
-      "Es ist nicht nur Essen. Es ist eine Zeitmaschine mit Panade. Über Erinnerung, Geruch und das Geräusch, wenn die Gabel durch die Kruste bricht.",
+      "Es ist nicht nur Essen. Es ist eine Zeitmaschine mit Panier. Über Erinnerung, Geruch und das Geräusch, wenn die Gabel durch die Kruste bricht.",
     blocks: [
       { type: "p", text: "Frag irgendwen am Tisch nach seiner ersten Beilage zum Fischstäbchen – und beobachte das Gesicht. Da passiert etwas. Die Augen gehen kurz nach oben links, dorthin, wo Erinnerungen wohnen, und dann kommt ein Satz, der mit „Bei uns gab's immer …“ beginnt." },
       { type: "h2", text: "Der Knusper-Reflex" },
-      { type: "p", text: "Es ist das Geräusch. Dieses kurze, trockene Knacken, wenn die Gabel durch die Panade bricht. Unser Gehirn hat es abgespeichert wie eine Kindermelodie. Ein einziger Biss, und plötzlich ist Freitagabend 1994." },
-      { type: "p", text: "Genau dafür gibt es die Knusperflotte. Nicht, weil Fischstäbchen das beste Essen der Welt wären – sondern weil sie das verlässlichste sind. Sie schmecken nach einer Zeit, in der das größte Problem war, ob noch genug Remoulade im Glas ist." },
+      { type: "p", text: "Es ist das Geräusch. Dieses kurze, trockene Knacken, wenn die Gabel durch die Panier bricht. Unser Gehirn hat es abgespeichert wie eine Kindermelodie. Ein einziger Biss, und plötzlich ist Freitagabend 1994." },
+      { type: "p", text: "Genau dafür gibt es die Fischstäbchen-Enthusiasten. Nicht, weil Fischstäbchen das beste Essen der Welt wären – sondern weil sie das verlässlichste sind. Sie schmecken nach einer Zeit, in der das größte Problem war, ob noch genug Remoulade im Glas ist." },
       { type: "quote", text: "Nostalgie ist der einzige Geschmack, den man nicht nachwürzen kann." },
     ],
   },
