@@ -11,6 +11,7 @@ const links = [
   { to: "/videos", label: "Werbefilme" },
   { to: "/blog", label: "Logbuch" },
   { to: "/mitmachen", label: "Mitmachen" },
+  { to: "/newsletter", label: "Newsletter" },
 ];
 
 export default function Layout({ children }) {

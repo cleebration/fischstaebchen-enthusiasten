@@ -43,7 +43,7 @@ export default function Mitmachen() {
               <span className="kicker">Käpt’ns Logbuch</span>
               <h3>Newsletter abonnieren</h3>
               <p style={{ marginBottom: "1rem" }}>
-                Termine, Aktionen, Beilagen-Eskalationen. Tag: <code>fischstäbchen</code>.
+                Termine, Aktionen, Beilagen-Eskalationen.
               </p>
               <NewsletterForm />
             </div>

@@ -245,3 +245,10 @@ img, svg { max-width: 100%; }
 
 :focus-visible { outline: 3px solid var(--gold-deep); outline-offset: 2px; }
 .prose h2[id] { scroll-margin-top: 84px; }
+
+/* Newsletter-Baustein (newsletter-hub) in Vereinsfarben */
+.nl-hub newsletter-signup {
+  display: block;
+  --nl-accent: var(--navy, #0c2a3a); --nl-text: var(--ink, #1c1a17); --nl-muted: var(--muted, #5c5750);
+  --nl-radius: 10px; --nl-maxwidth: 100%;
+}

@@ -80,9 +80,11 @@ export default function Rechtliches() {
 
           <h3>Newsletter</h3>
           <p>
-            Wenn du das Käpt’ns-Logbuch abonnierst, speichern wir deine E-Mail-Adresse und den Tag
-            „fischstäbchen“ beim Versanddienst EmailOctopus (Three Hearts Digital Ltd, London, UK) als
-            Auftragsverarbeiter. Die Daten liegen laut Anbieter überwiegend in der EU (Irland). Erst
+            Wenn du das Käpt’ns-Logbuch abonnierst, speichern wir deine E-Mail-Adresse, die Sprache,
+            die Website der Anmeldung und den Tag „fischstäbchen“ beim Versanddienst EmailOctopus
+            (Three Hearts Digital Ltd, London, UK) als Auftragsverarbeiter. Das Anmeldeformular wird
+            von newsletter.cleebration.com geladen (Cloudflare, Inc.) und übermittelt deine Angaben
+            direkt dorthin. Die Daten liegen laut Anbieter überwiegend in der EU (Irland). Erst
             wenn du den Link in der Bestätigungsmail anklickst, bist du angemeldet (Double-Opt-in).
             Rechtsgrundlage ist deine Einwilligung (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;a DSGVO). Du kannst
             sie jederzeit über den Abmeldelink in jeder Ausgabe oder per Mail an{" "}

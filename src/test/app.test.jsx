@@ -23,6 +23,7 @@ const routes = [
   "/beilagen",
   "/videos",
   "/mitmachen",
+  "/newsletter",
   "/blog",
   "/rechtliches",
   "/diese-seite-gibt-es-nicht",

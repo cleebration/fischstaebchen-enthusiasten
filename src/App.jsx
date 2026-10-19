@@ -9,6 +9,7 @@ import Aufnahmetest from "./pages/Aufnahmetest.jsx";
 import Beilagen from "./pages/Beilagen.jsx";
 import Videos from "./pages/Videos.jsx";
 import Mitmachen from "./pages/Mitmachen.jsx";
+import Newsletter from "./pages/Newsletter.jsx";
 import Blog from "./pages/Blog.jsx";
 import BlogPost from "./pages/BlogPost.jsx";
 import Rechtliches from "./pages/Rechtliches.jsx";
@@ -35,6 +36,7 @@ export default function App() {
         <Route path="/beilagen" element={<Beilagen />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/mitmachen" element={<Mitmachen />} />
+        <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/rechtliches" element={<Rechtliches />} />
