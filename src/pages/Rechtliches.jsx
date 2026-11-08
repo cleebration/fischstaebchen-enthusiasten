@@ -102,6 +102,12 @@ export default function Rechtliches() {
             Browser, es wird nichts gespeichert.
           </p>
 
+          <h3>Fischstäbchen-Turm</h3>
+          <p>
+            Das Spiel unter /turm speichert deinen Rekord nur im Speicher deines Browsers
+            (localStorage). Er wird nicht an uns übertragen.
+          </p>
+
           <h3>Deine Rechte</h3>
           <p>
             Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit

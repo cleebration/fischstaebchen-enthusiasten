@@ -13,6 +13,7 @@ import Newsletter from "./pages/Newsletter.jsx";
 import Blog from "./pages/Blog.jsx";
 import BlogPost from "./pages/BlogPost.jsx";
 import Rechtliches from "./pages/Rechtliches.jsx";
+import Turm from "./pages/Turm.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
 function ScrollToTop() {
@@ -39,6 +40,7 @@ export default function App() {
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/turm" element={<Turm />} />
         <Route path="/rechtliches" element={<Rechtliches />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

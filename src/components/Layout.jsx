@@ -66,6 +66,7 @@ export default function Layout({ children }) {
               <li><Link to="/verein">Über uns</Link></li>
               <li><Link to="/gruppen">Gruppen finden</Link></li>
               <li><Link to="/aufnahmetest">Aufnahmetest</Link></li>
+              <li><Link to="/turm">Fischstäbchen-Turm</Link></li>
               <li><Link to="/mitmachen">Mitmachen</Link></li>
             </ul>
           </div>
