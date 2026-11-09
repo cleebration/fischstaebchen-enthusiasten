@@ -76,6 +76,7 @@ export default function Layout({ children }) {
               <li><Link to="/blog">Logbuch</Link></li>
               <li><a href="/feed.xml">RSS-Feed</a></li>
               <li><Link to="/rechtliches">Impressum &amp; Disclaimer</Link></li>
+              <li><a href="https://cleebration.com/musik/seit-vierzig-jahren#knusprig-vereint" className="lied-zur-seite">♪ Das Lied zur Seite: „Knusprig vereint“</a></li>
             </ul>
           </div>
         </div>
